@@ -1,4 +1,8 @@
-// OMEGA RESET
+// Omega reset
+// Based on josh fry omega reset 
+// https://github.com/joshfry
+
+// Add $num-col variable equal to grid number at breakpoint
 
 @mixin omega-reset($nth,$num-col) {
 	 &:nth-child(#{$nth}) { margin-right:flex-gutter($num-col);}
